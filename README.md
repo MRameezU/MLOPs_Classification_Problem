@@ -91,7 +91,7 @@ us_visa/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/MLOPs_Classification_Problem.git
+   git clone https://github.com/MRameezU/MLOPs_Classification_Problem.git
    cd MLOPs_Classification_Problem
    ```
 2. Install the required packages:
