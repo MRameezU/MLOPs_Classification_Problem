@@ -124,6 +124,3 @@ Feel free to contribute to this project by opening issues, suggesting new featur
 
 If you have any questions regarding this project, please reach out via the Issues section or contact the project maintainers.
 
----
-
-This README provides a clear overview of the project, its structure, and instructions to get started. Let me know if you need further adjustments or additional sections!
