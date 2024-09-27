@@ -1,0 +1,14 @@
+# General ignores
+.env
+# Ignore PyCharm project settings
+.idea/
+
+# Ignore Conda-specific files and environments
+.conda/
+
+# Ignore JupyterLab settings
+notebook/.ipynb_checkpoints
+notebook/.jupyter
+
+# Ignore logs
+logs/*.log
