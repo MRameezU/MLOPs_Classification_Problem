@@ -52,7 +52,7 @@ class MongoDBClient:
         try:
             if MongoDBClient.client is None:
                 # Fetch MongoDB URL from environment variable
-                mongo_db_url = os.getenv(MONGODB_URL_KEY)
+                mongo_db_url = MONGODB_URL_KEY
                 if mongo_db_url is None:
                     raise Exception(f"Environment key: {MONGODB_URL_KEY} is not set in the environment variables")
 
