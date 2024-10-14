@@ -19,3 +19,4 @@
 /.idea/
 /logs/*
 /notebook/.jupyter/*
+/artifact/*
