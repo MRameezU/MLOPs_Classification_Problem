@@ -40,6 +40,6 @@ DATA_INGESTION_INGESTED_DIR="ingested"
 DATA_INGESTION_TRAIN_TEST_SPLIT_RATIO:float=0.2 # 80% training and 20% validation
 
 # data validation related constants
-DATA_VALIDATION_DIR_NAME="data_validation"
-DATA_VALIDATION_DRIFT_REPORT_DIR="drift_report"
-DATA_VALIDATION_DRIFT_REPORT_FILE_NAME="report.yaml"
+DATA_VALIDATION_DIR_NAME: str = "data_validation"
+DATA_VALIDATION_DRIFT_REPORT_DIR: str = "drift_report"
+DATA_VALIDATION_DRIFT_REPORT_FILE_NAME: str = "report.yaml"
