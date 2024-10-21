@@ -8,8 +8,11 @@
 # except Exception as e:
 #     raise USvisaException(e,sys)
 
-# training pipeline test
+# training pipeline test and Data Validation pipeline test
 from us_visa.pipline.training_pipeline import TrainPipeline
 
 object = TrainPipeline()
 object.run_pipeline()
+
+
+
