@@ -60,6 +60,7 @@ class DataValidation:
             # Check if the number of columns in the dataframe matches the schema configuration
             status = len(dataframe.columns) == len(self._schema_config["columns"])
             logging.info(f"Is required Column present: [{status}]")
+            return status
         except Exception as e:
             raise USvisaException(e, sys)
 
