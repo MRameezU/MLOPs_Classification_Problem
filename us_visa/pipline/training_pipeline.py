@@ -22,7 +22,7 @@ class TrainPipeline:
             data_validation_config (DataValidationConfig): Stores configuration settings required for the data validation process.
         """
         self.data_ingestion_config = DataIngestionConfig()  # Initialize data ingestion config
-        self.data_validaiton_config = DataValidationConfig()  # Initialize data validation config
+        self.data_validation_config = DataValidationConfig()  # Initialize data validation config
 
     def start_data_ingestion(self) -> DataIngestionArtifact:
         """
@@ -68,7 +68,7 @@ class TrainPipeline:
         try:
             # Create an instance of DataValidation and initialize the validation process
             data_validation = DataValidation(data_ingestion_artifact=data_ingestion_artifact,
-                                             data_validation_config=self.data_validaiton_config)
+                                             data_validation_config=self.data_validation_config)
             data_validation_artifact = data_validation.initialize_data_validation()
 
             logging.info("Data validation completed successfully.")
